@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bga"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RiwayatPendidikanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="84dp"
+            android:layout_height="106dp"
+            android:layout_marginBottom="608dp"
+            android:src="@drawable/ic_baseline_school_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewHelp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:text=" Riwayat pendidikan Yanda "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.166" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="350dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginBottom="491dp"
+            android:text="SD : Kelas 1 - 4 di SDN 16 Sikalang "
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewHelp"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="341dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginBottom="455dp"
+            android:text="Kelas 5 SD di SDN 006 Bongkal Malang"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="302dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="315dp"
+            android:layout_marginBottom="380dp"
+            android:text="Kelas 6 SD di SDN 06 Rawang"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.024"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.333" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
