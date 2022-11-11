@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_date_range_24"
+        android:title="Tanggal Lahir" />
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Alamat" />
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/ic_baseline_school_24"
+        android:title="Riwayat Pendidikan" />
+</menu>
